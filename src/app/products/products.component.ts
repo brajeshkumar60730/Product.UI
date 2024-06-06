@@ -59,7 +59,7 @@ export class ProductsComponent implements OnInit {
       this.productForm.controls['gender'].setValue(productResult.gender);
       this.productForm.controls['country'].setValue(productResult.country);
       this.productForm.controls['firstDate'].setValue(productResult.firstDate);
-      this.productForm.controls['lastDate'].setValue(productResult.firstDate);
+      this.productForm.controls['lastDate'].setValue(productResult.lastDate);
       
     });
   }
